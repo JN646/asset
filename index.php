@@ -1,12 +1,21 @@
+<!-- Header -->
 <?php include_once $_SERVER["DOCUMENT_ROOT"] . '/asset/partials/_header.php' ?>
 <div class="fluid-container">
-  <div class="row">
+  <div class="row col-md-12">
     <div class="col-md-2">
+      <!-- Menu -->
       <?php include_once $_SERVER["DOCUMENT_ROOT"] . '/asset/partials/_adminMenu.php' ?>
     </div>
     <div class="col-md-10">
-      <h1>Home Page</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <br>
+
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1>Home Page</h1>
+      </div>
+      <p>Welcome to Checkpoint Charlie, use the buttons below to get started.</p>
+
+      <!-- Links -->
       <ul class="nav">
         <li class="nav-item">
           <a class="nav-link" href="people/people_index.php">People</a>
@@ -14,9 +23,36 @@
         <li class="nav-item">
           <a class="nav-link" href="assets/assets_index.php">Assets</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="assets/assets_index.php">Issue Asset</a>
+        </li>
       </ul>
+
+      <!-- Stats Table -->
+      <table class='table table-bordered'>
+        <thead>
+          <tr>
+            <th class='text-center' width='10px';>i</th>
+            <th class='text-center'>Stat</th>
+            <th class='text-center'>Count</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class='text-center'><i class="fas fa-box"></i></td>
+            <td>Assets</td>
+            <td>200</td>
+          </tr>
+          <tr>
+            <td class='text-center'><i class="fas fa-users"></i></td>
+            <td>People</td>
+            <td>400</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </div>
 </body>
+<!-- Footer -->
 <?php include_once $_SERVER["DOCUMENT_ROOT"] . '/asset/partials/_footer.php' ?>

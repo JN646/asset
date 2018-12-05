@@ -1,6 +1,6 @@
 <?php include_once $_SERVER["DOCUMENT_ROOT"] . '/asset/partials/_header.php' ?>
 <div class="fluid-container">
-  <div class="row">
+  <div class="row col-md-12">
     <div class="col-md-2">
       <?php include_once $_SERVER["DOCUMENT_ROOT"] . '/asset/partials/_adminMenu.php' ?>
     </div>

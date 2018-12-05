@@ -10,5 +10,5 @@
   </head>
   <body>
     <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="<?php echo $environment; ?>index.php">Checkpoint Charlie</a>
+      <a class="navbar-brand" href="<?php echo $environment; ?>index.php"><i class="fab fa-fort-awesome"></i> Checkpoint Charlie</a>
     </nav>
